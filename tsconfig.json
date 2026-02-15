@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "@tsconfig/node24/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json"
-  ],
+  "extends": ["@tsconfig/bases/node24", "@tsconfig/bases/strictest"],
   "compilerOptions": {
     "noEmit": true,
     "allowImportingTsExtensions": true

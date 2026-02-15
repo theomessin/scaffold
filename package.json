@@ -4,14 +4,13 @@
     "start": "node src/main.ts",
     "dev": "node --watch src/main.ts",
     "test": "node --test --test-reporter=dot",
-    "fmt": "biome check --write",
-    "check": "tsc"
+    "fmt": "oxfmt",
+    "check": "tsgo"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.6",
-    "@tsconfig/node24": "^24.0.1",
-    "@tsconfig/strictest": "^2.0.6",
-    "@types/node": "^24.8.1",
-    "typescript": "^5.9.3"
+    "@tsconfig/bases": "^1.0.20",
+    "@types/node": "^25.2.3",
+    "@typescript/native-preview": "7.0.0-dev.20260215.1",
+    "oxfmt": "^0.32.0"
   }
 }
